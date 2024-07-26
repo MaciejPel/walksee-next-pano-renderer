@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import Script from "next/script";
-import { useEffect } from "react";
 
 const tours = [
   "tour-80cac283ffb84eef8b73415e7884ee2b",
@@ -11,10 +10,6 @@ const tours = [
 ];
 
 export default function Home() {
-  useEffect(() => {
-    console.log(12);
-  }, []);
-
   return (
     <>
       <div className="flex flex-col gap-4 text-neutral-800">
